@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Author : Vishav Kirat Singh
+# Date: 28/08/2022
+# Discreption: These are basic commands athat we are going to use
+# Modification Date: 28/08/2022
+
+
+echo
+echo "This script will run few basic tasks"
+
+echo -e "pwd: \t $(pwd)"
+echo -e "ls: \n $(ls)"
+echo -e 'cal: \t $(cal)'
+echo -e "whoami: \t $(date)"
