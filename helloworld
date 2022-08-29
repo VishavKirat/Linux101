@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Author: Vishav Kirat Singh
+# Date: 28/08/22
+# Discrption: This script will run hello world program
+# Date Modified: 28/08/22
+
+echo -e "\nHello World!\n"
