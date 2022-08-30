@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Author: Vishav K Singh
+# Date: @022-08-29
+# Description: Thsi is a script to run basic admin tasks
+# Modification date: 2022-08-29
+
+
+echo -e "Checking memory per device: \n $(df aux -h) \n "
+echo "========================================================"
+echo -e "Checking system details(first ten commands): $(htop | head -10)"
+
+
