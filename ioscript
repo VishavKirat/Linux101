@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Author: Vishav Kirat Singh
+# Date: 2022-08-30
+# Descpition: This script will read the output from the prompt/terminal
+# Modification date: 2022-08-30
+
+
+echo -n "Type your name: " ; read userName
+echo -n "Enter your age: " ; read userAge
+echo -n "Enter your phone number: "; read userNumber
+echo -n "Enter your profession: "; read userProf
+echo -n "Enter your dream job: "; read userDJob
+echo -n "Enter your salary: "; read userSalary
+echo -e "\n \n \n"
+echo -e "Pleasure to meet you at last, $userName, we paid you $userSalary to work for us as a $userProf but you day dream about being a $userDJob.\n
+This is unacceptible, you are house arresetd till age $(expr $userAge + 8) and your phone number will be tapped!"
