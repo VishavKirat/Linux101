@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Author: Vishav Kirat Singh
+# Date: 2022-08-31
+# Desc: Lets look into if else command
+# Modification Date: 2022-08-31
+
+echo -n "Enter a number: "
+read num
+if [ $num -eq 50 ]
+then 
+  echo "We found a match"
+else 
+  echo "Nope! You lost!"
+fi

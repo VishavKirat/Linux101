@@ -14,4 +14,4 @@ echo -n "Enter your dream job: "; read userDJob
 echo -n "Enter your salary: "; read userSalary
 echo -e "\n \n \n"
 echo -e "Pleasure to meet you at last, $userName, we paid you $userSalary to work for us as a $userProf but you day dream about being a $userDJob.\n
-This is unacceptible, you are house arresetd till age $(expr $userAge + 8) and your phone number will be tapped!"
+This is unacceptible, you are house arresetd till age $(( $userAge + 8)) and your phone number will be tapped!"
