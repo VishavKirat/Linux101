@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Author: Vishav K. Singh
+# Creation Date : 09/01/2022
+# Desc: This is a script to find specific file in the system
+# Date Modified: 09/01/22
+
+fileLocation=./Desktop/jumbo.txt
+
+if [ -e  $fileLocation ] 
+	then
+		echo "Success! We have tat files avaiable"
+	else
+		echo "Error 404!! File not found" 
+fi
+

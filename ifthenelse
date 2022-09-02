@@ -3,7 +3,7 @@
 # Author: Vishav Kirat Singh
 # Date: 2022-08-31
 # Desc: Lets look into if else command
-# Modification Date: 2022-08-31
+# Modification Date: 2022-09-01
 
 echo -n "Enter a number: "
 read num
@@ -13,3 +13,4 @@ then
 else 
   echo "Nope! You lost!"
 fi
+
