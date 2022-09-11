@@ -1,0 +1,23 @@
+#!/bin/bash
+
+
+# Author: Vishav Kirat Singh
+# Date: 2022/09/11
+# Desc: This is a script to find files according to size, time etc
+# Modification Date: 2022/09/11
+
+
+# below will serach for a file with extention .txt
+
+cd
+echo "Following are files in your system which exceeds a size limit of 3Mb"
+find . -size +3M
+
+echo
+echo
+echo
+
+echo "Following ar eteh files which were modified today on this system"
+find -mmin -1020
+
+
